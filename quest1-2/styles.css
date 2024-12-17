@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #eee
+}
+
+.introductions {
+    padding: 5rem;
+    margin-inline: 2rem;
+    text-align: center;
+}
+p {
+    font-family: 'Poppins';
+    padding-bottom: 1rem;
+}

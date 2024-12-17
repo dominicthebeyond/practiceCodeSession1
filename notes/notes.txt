@@ -1,0 +1,29 @@
+// DOM Notes:
+
+/* 
+
+.parentNode // Access parent node
+. children // Access all children.
+.nextElementSibling // next sibling
+.previousElementSibling // previous sibling
+
+*/
+
+// selectors
+
+// const card = document.getElementsByClassName('card');
+// const body = document.querySelector('body');
+// const images = document.querySelectorAll('.card img');
+
+
+// // styles
+
+// images.forEach((img) => {
+//     img.style.width = "250px";
+//     img.style.height = "250px";
+// });
+
+// let cardImg = document.querySelectorAll('.card img')
+// let cardParagraph = document.querySelectorAll('.card p')
+// let cardHeader = document.querySelectorAll('.card header')
+
