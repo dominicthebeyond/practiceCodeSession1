@@ -1,0 +1,6 @@
+Purpose: Practice DOM manipulation, events, and styling.
+Features:
+Add tasks.
+Mark tasks as completed.
+Delete tasks.
+

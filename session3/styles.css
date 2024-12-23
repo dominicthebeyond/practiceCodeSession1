@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #F9FAFB;
+    height: 100vh;
+    
+
+    /*
+    
+    Light Mode Palette:
+    Background: #F9FAFB (light gray)
+    Surface/Containers: #FFFFFF (white)
+    Primary: #007BFF (vibrant blue)
+    Secondary: #F4B400 (warm yellow)
+    Accent: #D64550 (muted red)
+    Text Primary: #333333 (dark gray)
+    Text Secondary: #555555 (medium gray)
+    Border/Dividers: #E5E7EB (soft gray)
+
+    Dark Mode Palette:
+    Background: #121212 (dark gray-black)
+    Surface/Containers: #1E1E1E (slightly lighter gray-black)
+    Primary: #4C8CFF (soft blue)
+    Secondary: #FFD54F (muted yellow)
+    Accent: #F28B82 (light red-pink)
+    Text Primary: #E5E5E5 (light gray)
+    Text Secondary: #B3B3B3 (medium gray)
+    Border/Dividers: #333333 (dark gray)
+*/
+
+display: grid;
+grid-template-areas: 
+"section0"
+"divider0"
+"section1"
+;
+
+}
+
+.light-mode {
+    background-color: #F9FAFB;
+    color: #333333;
+}
+
+.dark-mode {
+    color: #E5E5E5;
+    background-color: #121212;
+}
+
+.visible {
+    display: block;
+    background-color: #F4B400;
+    opacity: 100;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+.dark-light-container {
+    padding: 5rem;
+    border-radius: 20%;
+    background-color: olivedrab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dark-light-section {
+    margin-inline: 1rem;
+}
+
+.section0 {
+    grid-area: "section0";
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.divider {
+    padding: 3rem;
+
+}
+
+.divider0 {
+    grid-area: "divider0";
+
+}
+.divider > hr {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F4B400;
+}
+.section1 {
+    grid-area: "section1";
+    padding: 3rem;
+    text-align: center;
+    justify-content: center;
+}
