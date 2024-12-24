@@ -1,0 +1,8 @@
+Jet Black (#000000) – Deep and dramatic, black is the base color for a noir aesthetic.
+Charcoal Gray (#2C2C2C) – A softer black for shadows and gradients.
+Ash Gray (#B2B2B2) – A light gray for contrast and subtle highlights.
+Ivory White (#FFFFF0) – A soft off-white for text, accents, or balance.
+Crimson Red (#DC143C) – A bold, striking red for pops of drama (e.g., lips, signs, or accents).
+Muted Gold (#C1A264) – A vintage metallic tone that adds an air of luxury and mystery.
+Deep Teal (#014B43) – A subtle hint of color that complements the monochrome without overwhelming.
+Silver (#C0C0C0) – Metallic, shiny details for accents and highlights.
