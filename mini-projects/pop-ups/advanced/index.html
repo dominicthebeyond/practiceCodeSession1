@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Popup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <button id="openPopup">Open Popup</button>
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-box" id="popupBox">
+        <h2 id="popupTitle">Welcome to Advanced Popup!</h2>
+        <p id="popupMessage">Feel free to fill out the form below.</p>
+        <form id="popupForm">
+            <input type="text" id="userInput" class="popup-input" placeholder="Enter something..." />
+            <span id="errorMessage" class="error-message"></span>
+            <button type="submit" class="popup-button">Submit</button>
+        </form>
+        <button class="popup-button" id="closePopup">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

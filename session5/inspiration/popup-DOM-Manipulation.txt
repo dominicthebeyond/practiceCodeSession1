@@ -1,0 +1,33 @@
+// Select the button
+const showPopupButton = document.getElementById('showPopupButton');
+
+// Add an event listener to the button to show the popup
+showPopupButton.addEventListener('click', () => {
+  // Create the overlay
+  const overlay = document.createElement('div');
+  overlay.className = 'popup-overlay';
+
+  // Create the popup
+  const popup = document.createElement('div');
+  popup.className = 'popup';
+
+  // Add content to the popup
+  const closeButton = document.createElement('span');
+  closeButton.className = 'popup-close';
+  closeButton.textContent = '×';
+  closeButton.addEventListener('click', () => {
+    document.body.removeChild(overlay);
+    document.body.removeChild(popup);
+  });
+
+  const message = document.createElement('p');
+  message.textContent = 'This is a popup!';
+
+  // Append elements to the popup
+  popup.appendChild(closeButton);
+  popup.appendChild(message);
+
+  // Append the overlay and popup to the body
+  document.body.appendChild(overlay);
+  document.body.appendChild(popup);
+});

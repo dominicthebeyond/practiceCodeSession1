@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Popup - Session 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <button id="showPopupButton">Show Popup</button>
+
+    <div class="popup-overlay" id="popupOverlay"></div>
+    <div class="popup" id="popupBox">
+        <h2>- Pop Up Header -</h2>
+        <p>
+            This is the description for the popup.
+        </p>
+        <form id="popupForm">
+            <input type="text" id="userInput" class="popup-input" placeholder="Enter something..." />
+            <span id="errorMessage" class="error-message"></span>
+            <button type="submit" class="popup-button">Submit</button>
+        </form>
+        <button id="closePopupButton">close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
